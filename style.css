@@ -1,0 +1,122 @@
+* {margin:0; padding:0;}
+body {
+	font-family:helvetica, arial, sans-serif;
+	background:#dcd9c0;
+	}
+#wrapper {
+	min-width:760px; max-width:1100px; margin:0 auto; border:1px solid; overflow:hidden;
+	}
+header {
+	position: relative;
+	height:80px;
+	margin: 10px 0 10px;
+	background:#000;
+	border-radius: 10px;
+	box-shadow: 4px 4px 5px #555;
+
+	}
+header h1 {
+	position:absolute;
+	font-family:'Droid Sans';
+	font-weight:400;
+	font-size:4em;
+	letter-spacing:-.05em;
+	color:#fff;
+	padding:0 0 0px 10px;
+
+
+
+	}
+nav.menu {
+	margin: 19px auto;
+	text-align: right;
+	}
+nav.menu > ul {display: inline-block;}
+nav.menu li {
+	padding: 50px 10px 0px 0px;
+	float: left;
+	list-style-type:none;
+	position:relative;
+	}
+nav a {
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	font-size:.85em;
+	color:#fff;
+	}
+
+section#main {
+	margin-bottom: 10px;
+	box-shadow: 4px 4px 5px #555;
+	border-radius: 10px;
+}
+
+article {
+	border-radius: 10px 0 0 10px;
+	display:table-cell;
+	background:#fff;
+	padding:10px 20px;
+	}
+article h1 {
+	font-family:'Droid Sans';
+	font-weight:700;
+	font-size:1.5em;
+	letter-spacing:-.05em;
+	color:#616161;
+	}
+article h2 {
+	font-family:'Droid Sans';
+	font-weight:700;
+	font-size:1.25em;
+	letter-spacing:-.05em;
+	color:#616161;
+	text-decoration:overline;
+	margin:10px 0 0 0;
+	}
+article p {
+	font-family:'Open Sans Condensed';
+	font-weight:300;
+	font-size:1em;
+	color:#000;
+	}
+aside {
+	border-radius: 0 10px 10px 0;
+	display:table-cell;
+	width:210px;
+	background:#F5DEB3;
+	padding:10px;
+	}
+aside h3 {
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	letter-spacing:-.075em;
+	color:#000;
+	}
+aside p {
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	font-size:.85em;
+	line-height:1.2em;
+	color:#000;
+	}
+footer {
+	margin-bottom: 10px;
+	border-radius: 10px;
+	clear:both;
+	background:#000;
+	text-align:center;
+	box-shadow: 4px 4px 5px #555;
+	}
+footer p {
+	font-family:'Open Sans';
+	font-weight:700;
+	font-size:.65em;
+	color:#fff;
+	}
+footer a {
+	font-family:'Open Sans';
+	font-weight:700italic;
+	font-size:1em;
+	color:#ffed53;
+	text-decoration:none;
+	}
