@@ -120,3 +120,27 @@ footer a {
 	color:#ffed53;
 	text-decoration:none;
 	}
+
+@media screen and (max-width: 1050px){
+	header h1
+	{font-size: 2em;
+	}
+
+	nav.menu {
+		margin: 19px 10px;
+		text-align: left;
+		}
+		article{
+			border-radius: 10px;
+		}
+		aside {
+			border-radius: 10px;
+			display:table-cell;
+
+			background:#F5DEB3;
+			padding:10px;
+			float:left;
+			}
+
+		}
+}
