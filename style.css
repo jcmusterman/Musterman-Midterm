@@ -4,10 +4,9 @@ body {
 	background:#dcd9c0;
 	}
 #wrapper {
-	min-width:760px; max-width:1100px; margin:0 auto; border:1px solid; overflow:hidden;
+	min-width:760px; max-width:1100px; margin:0 auto; border:1px solid;
 	}
 header {
-
 	height:80px;
 	margin: 10px 0 10px;
 	background:#000;
@@ -18,7 +17,6 @@ header {
 	width:99%;
 	}
 header h1 {
-
 	font-family:'Droid Sans', sans-serif;
 	font-weight:400;
 	font-size:4em;
@@ -26,14 +24,11 @@ header h1 {
 	color:#fff;
 	padding:0 0 0px 10px;
 	display: table-cell;
-
-
 	}
 nav.menu {
 	margin: 19px auto;
 	text-align: right;
 	display: table-cell;
-
 	}
 nav.menu > ul {display: inline-block;}
 nav.menu li {
@@ -48,11 +43,11 @@ nav a {
 	font-size:.85em;
 	color:#fff;
 	}
-
 div#main {
+	display:table;
 	margin-bottom: 10px;
 	box-shadow: 4px 4px 5px #555;
-	border-radius: 10px;
+
 }
 blockquote{
 	padding-bottom: 10px;
@@ -62,7 +57,6 @@ article {
 	display:table-cell;
 	background:#fff;
 	padding:10px 20px;
-
 	}
 article h2 {
 	font-family:'Droid Sans';
@@ -98,7 +92,7 @@ article img {
 aside {
 	border-radius: 0 10px 10px 0;
 	display:table-cell;
-	width:210px;
+	width:30%;
 	background:#F5DEB3;
 	padding:10px;
 	}
@@ -140,13 +134,20 @@ footer a {
 	}
 
 @media screen and (max-width: 1050px){
-
+body{
+	margin: 0 8px;
+}
+#wrapper{
+	min-width: 98%;
+	border: none;
+}
 	header h1{
 		font-size: 2em;
 		display:block;
 		text-align: center;
-		width:100%
+		width:96%
 		padding:0;
+		margin: 0 2px;
 
 
 	}
@@ -155,7 +156,7 @@ footer a {
 		display:block;
 		text-align: center;
 		padding: 0 0 0 10px;
-		width:100%
+		width:96%
 	}
 	nav.menu li {
 		padding: 0px 20px 0px 0px;
@@ -167,15 +168,16 @@ footer a {
 		article{
 			border-radius: 10px;
 			display: block;
-			width:98%;
-			margin-bottom: 10px;
+			width:100%;
+			margin:0 2px 10px;
 		}
 		aside {
 			border-radius: 10px;
 			display:block;
-			width:98%;
+			width:96%;
 			background:#F5DEB3;
 			padding:10px;
+			margin: 0 2px;
 			}
 
 		}
