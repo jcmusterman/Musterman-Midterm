@@ -118,6 +118,7 @@ footer {
 	background:#000;
 	text-align:center;
 	box-shadow: 4px 4px 5px #555;
+	padding: 10px;
 	}
 footer p {
 	font-family:'Open Sans', sans-serif;
