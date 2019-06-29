@@ -4,7 +4,7 @@ body {
 	background:#dcd9c0;
 	}
 #wrapper {
-	min-width:760px; max-width:1100px; margin:0 auto; border:1px solid;
+	min-width:760px; max-width:1100px; margin:0 auto; ;
 	}
 header {
 	height:80px;
@@ -43,11 +43,11 @@ nav a {
 	font-size:.85em;
 	color:#fff;
 	}
-div#main {
+.main {
 	display:table;
 	margin-bottom: 10px;
 	box-shadow: 4px 4px 5px #555;
-
+	border-radius: 10px;
 }
 blockquote{
 	padding-bottom: 10px;
@@ -133,52 +133,63 @@ footer a {
 	text-decoration:none;
 	}
 
-@media screen and (max-width: 1050px){
-body{
-	margin: 0 8px;
-}
-#wrapper{
-	min-width: 98%;
-	border: none;
-}
-	header h1{
-		font-size: 2em;
-		display:block;
-		text-align: center;
-		width:96%
-		padding:0;
-		margin: 0 2px;
-
-
+	@media screen and (max-width: 1050px){
+	body{
+		margin: 0 8px;
 	}
-
-	nav.menu {
-		display:block;
-		text-align: center;
-		padding: 0 0 0 10px;
-		width:96%
+	#wrapper{
+		min-width: 98%;
+		border: none;
 	}
-	nav.menu li {
-		padding: 0px 20px 0px 0px;
-		float: left;
-		list-style-type:none;
-
-			}
-
-		article{
-			border-radius: 10px;
-			display: block;
-			width:100%;
-			margin:0 2px 10px;
+	header {
+		height:80px;
+		margin: 10px 0px 10px;
+		background:#000;
+		padding:0px;
+		width:99%;
 		}
-		aside {
-			border-radius: 10px;
+
+		header h1{
+			font-size: 2em;
 			display:block;
-			width:96%;
-			background:#F5DEB3;
-			padding:10px;
+			text-align: center;
+			width:96%
+			padding:0;
 			margin: 0 2px;
-			}
-
 		}
-}
+		nav.menu {
+			display:block;
+			text-align: center;
+			padding: 0 0 0 10px;
+			width:96%
+		}
+		nav.menu li {
+			padding: 0px 20px 0px 0px;
+			float: left;
+			list-style-type:none;
+			}
+	.main{
+	width:95%;
+		box-shadow: none;
+		}
+			article{
+				border-radius: 10px;
+				display: block;
+				width:100%;
+				margin:0 2px 10px;
+				padding:10px;
+				box-shadow: 4px 4px 5px #555;
+			}
+			aside {
+				border-radius: 10px;
+				display:block;
+				width:100%;
+				background:#F5DEB3;
+				padding:10px;
+				margin: 0 2px;
+				box-shadow: 4px 4px 5px #555;
+				}
+				.electric img{
+					width:95%;
+					max-width: 400px;
+							}
